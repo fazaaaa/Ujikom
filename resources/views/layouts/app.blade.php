@@ -35,12 +35,18 @@
                     @guest
                     @else
                     <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">Menu</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">Menu 2</a>
-                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">Menu Super Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">Menu Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">Menu User</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">Menu Global</a>
+                        </li>    
                     </ul>
                     @endguest
 
