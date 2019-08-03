@@ -41,6 +41,6 @@ class HomeController extends Controller
     }
     protected function memberDashboard()
     {
-        return redirect('home');
+        return view('home');
     }
 }
